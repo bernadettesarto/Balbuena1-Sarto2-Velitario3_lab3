@@ -61,6 +61,9 @@ public class Clock {
             System.out.print("Do you want to convert time? (Y/N): ");
             continueConversion = scanner.next();
         } while (continueConversion.equalsIgnoreCase("Y"));
+        //The other print output for issue1
+        System.out.println("The other member needs to clone the remote source code to their local machine using the command: git clone [SSH/HTTPS Link]");
+        System.out.println("OR simply download the Zip File from gitHub");
 
         scanner.close();
     }
